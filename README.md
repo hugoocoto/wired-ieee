@@ -21,7 +21,11 @@ Wrap your document in the `ieee` function using a `show` rule:
   abstract: [This paper introduces a comprehensive IEEE template...],
   index-terms: ("Typst", "IEEE", "Typesetting"),
   bibliography: bibliography("refs.bib"),
+  lang: "en",
 )
 
 = Introduction
 Your article content goes here...
+```
+
+There is a blank template: `./blank.typ`
