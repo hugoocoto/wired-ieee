@@ -1,14 +1,12 @@
-# IEEE Article Template for Typst
+# IEEE Article in Typst
 
-A fast, highly customizable Typst template for formatting academic papers in the IEEE style. **Based on the `ieee-charged` template.**
+A multilanguage Typst template for writing academic papers in the IEEE style (Unofficial). Based on the ieee-charged template.
 
 ![image](image.png)
 
 ---
 
 ## Usage
-
-Wrap your document in the `ieee` function using a `show` rule:
 
 ```typst
 #import "lib.typ": ieee
@@ -28,4 +26,4 @@ Wrap your document in the `ieee` function using a `show` rule:
 Your article content goes here...
 ```
 
-There is a blank template: `./blank.typ`
+There is a blank template: `./blank.typ`.
