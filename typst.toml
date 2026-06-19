@@ -1,0 +1,15 @@
+[package]
+name = "ieee-paper"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Hugo Coto Flórez"]
+license = "MIT"
+description = "A multilanguage Typst template for writing academic papers in the IEEE style."
+repository = "https://github.com/hugoocoto/ieee-paper"
+keywords = ["ieee", "article", "paper", "science"]
+categories = ["report", "paper"]
+disciplines = ["computer-science", "engineering"]
+
+[template]
+path = "template"
+entrypoint = "blank.typ"
