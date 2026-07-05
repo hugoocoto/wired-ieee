@@ -138,7 +138,7 @@
   show raw: set text(
     font: "TeX Gyre Cursor",
     ligatures: false,
-    size: 1em,
+    size: 0.8em,
     spacing: 100%,
   )
 
@@ -147,6 +147,7 @@
     inset: 1em,
     fill: luma(97%),
   )[
+    #set align(left)
     #grid(
       columns: (1fr, auto),
       gutter: 1em,
