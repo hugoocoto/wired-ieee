@@ -8,12 +8,10 @@ A multilanguage Typst template for writing academic papers in the IEEE style (Un
 
 ## Usage
 
-The script `./install.sh` copies the package to your typst local path.
-
-After using the script, you can start from a template by typing `typst init @local/ieee-paper:1.0.0`.
+### From Typst Universe
 
 ```typst
-#import "@local/ieee-paper:1.0.0": ieee
+#import "@preview/wired-ieee:1.0.0": ieee
 
 #show: ieee.with(
   title: [A Novel Approach to Typst Templates],
@@ -28,4 +26,12 @@ After using the script, you can start from a template by typing `typst init @loc
 
 = Introduction
 Your article content goes here...
+```
+
+### Locally
+
+Run `./install.sh` to copy the package to your local typst path, then:
+
+```
+typst init @local/wired-ieee:1.0.0
 ```

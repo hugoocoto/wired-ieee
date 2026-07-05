@@ -1,4 +1,4 @@
-#import "@local/ieee-paper:1.0.0": ieee
+#import "@preview/wired-ieee:1.0.0": ieee
 
 #show: ieee.with(
   title: [],

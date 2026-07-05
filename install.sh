@@ -7,7 +7,7 @@ MINOR=0
 PATCH=0
 VERSION="$MAJOR.$MINOR.$PATCH"
 
-NAME="ieee-paper"
+NAME="wired-ieee"
 NAMESPACE="local"
 
 if [ ! -z "$XDG_DATA_HOME" ]; then

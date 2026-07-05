@@ -1,4 +1,4 @@
-#import "@local/ieee-paper:1.0.0": ieee
+#import "@local/wired-ieee:1.0.0": ieee
 
 #show: ieee.with(
   title: [Un Sistema de Composición Tipográfica para Desentrañar el Proceso de Escritura Científica],
@@ -29,7 +29,7 @@
   ),
   index-terms: ("Escritura científica", "Composición tipográfica", "Creación de documentos", "Sintaxis"),
   aside: [Template: ieee-charged modified by Hugo Coto. You can find the repo at
-    #link("https://github.com/hugoocoto/ieee-paper", "github.com/hugoocoto/ieee-paper")],
+    #link("https://github.com/hugoocoto/wired-ieee", "github.com/hugoocoto/wired-ieee")],
   bibliography: bibliography("refs.bib"),
   lang: "es",
   i18n: (
