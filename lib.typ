@@ -138,7 +138,7 @@
   show raw: set text(
     font: "TeX Gyre Cursor",
     ligatures: false,
-    size: 0.8em,
+    size: 1em,
     spacing: 100%,
   )
 
@@ -148,6 +148,7 @@
     fill: luma(97%),
   )[
     #set align(left)
+    #set text(size: 0.8em)
     #grid(
       columns: (1fr, auto),
       gutter: 1em,
@@ -272,7 +273,7 @@
       #if abstract != none {
         set align(left)
         set par(spacing: 0.45em, leading: 0.45em)
-        set text(style: "italic")
+        set text(style: "italic", weight: "bold")
 
         [#(i18n.abstract)---#h(weak: true, 0pt)#abstract]
 
